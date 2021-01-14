@@ -2,11 +2,12 @@ package iktlabcourse;
 
 public class Human {
 
-    private String name;
-    private String surname;
-    private int year;
-    private int IQ;
+    private String name ="Michael" ;
+    private String surname = "Karleone";
+    private int year = 1977;
+    private int IQ = 90;
 
+    //Human{name='Michael', surname='Karleone', year=1977, iq=90, mother=Jane Karleone, father=Vito Karleone, pet=dog{nickname='Rock', age=5, trickLevel=75, habits=[eat, drink, sleep]}}`
     public Human() {
 
     }

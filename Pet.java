@@ -13,11 +13,9 @@ public class Pet {
         this.species=species;
         this.nickname=nickname;
     }
-
     public Pet(){
 
     }
-
     public Pet(String species, String nickname, int age, int trickLevel, String [] habits){
         this.species=species;
         this.nickname=nickname;
@@ -25,11 +23,6 @@ public class Pet {
         this.trickLevel =trickLevel;
         this.habits =habits;
     }
-    /*
-    constructor which describes the pet's species an nickname
-    - constructor which describes all the fields for the pet
-    - empty constructor
-     */
 
     public void eatMethod() {
         System.out.println("I am eating");
@@ -44,8 +37,6 @@ public class Pet {
     }
     public String toString(){
         return String.format("nickname - %s, age - %d, trickLevel - %s, habits - %s, spices - %s ", nickname, age, trickLevel, habits, species);
-                /*
-                `dog{nickname='Rock', age=5, trickLevel=75, habits=[eat, drink, sleep]}`, where `dog` = species;
-                 */
+
     }
 }
